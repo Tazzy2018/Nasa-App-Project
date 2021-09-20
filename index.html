@@ -19,31 +19,38 @@
 
 <body>
     <main>
-        <h1>Astronomy Picture Of The Day</h1>
 
-        <form id="form">
-            <label for="datePicker">Pick a date:
-                <input id="datePicker" type="date" min="" max="">
-            </label>
-        </form>
+        <div class="wrapper">
+            <h1>Astronomy Picture Of The Day</h1>
 
+            <form id="form">
+                <label for="datePicker">Pick a date:
+                    <input id="datePicker" type="date" min="" max="">
+                </label>
+            </form>
 
-        <img src="" id="media"></img>
+            <h2 id="msg"></h2>
 
-
-        <p id="title"></p>
-        <p id="date"></p>
-        <h4>Further Information Below:</h4>
-        <p id="exp" class="explanation"></p>
+            <img src="" id="media"></img>
 
 
-        <i><button onclick="like(this)" class="btn"><i class="fas fa-heart fa-2x " id="heart"></i></button>
+            <p id="title"></p>
+            <p id="date"></p>
+            <h4>Further Information Below:</h4>
+            <p id="exp" class="explanation"></p>
+            <p id="msg"></p>
+
+
+
+            <i><button onclick="like(this)" class="btn"><i class="fas fa-heart fa-2x " id="heart"></i></button>
 
     </main>
 
     <script src="shopify.js"></script>
+    </div>
 </body>
 
-    <footer><a target="_blank" href="https://www.tazcodes.com/">Created by TazCodes</a></footer>
+
+<footer><a target="_blank" href="https://www.tazcodes.com/">Created by TazCodes</a></footer>
 
 </html>

@@ -268,12 +268,36 @@ html {
     overflow-x: hidden;
 }
 
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 body {
     background-color: rgb(103, 79, 190);
 
 }
 
 h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono',
+        monospace;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono',
+    monospace;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
     text-align: center;
     color: white;
     font-family: 'Roboto Mono',
@@ -298,16 +322,6 @@ p {
     margin: 2%;
 }
 
-h3 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-    color: white;
-    font-family: 'Roboto Mono',
-        monospace;
-}
 
 .heart {
     color: red;

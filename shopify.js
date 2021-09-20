@@ -14,13 +14,16 @@ async function nasaApp() {
     console.log(data);
 
 
-
     //display data on frontend
 
     document.getElementById("date").textContent = "Date: " + data.date;
     document.getElementById("exp").textContent = data.explanation;
     document.getElementById("title").textContent = data.title;
     document.getElementById("media").src = data.url;
+
+    //error message if date selected is past the current date at that time
+    document.getElementById("msg").textContent = data.msg;
+
 
 
     dateInput.addEventListener("change", (e) => {
